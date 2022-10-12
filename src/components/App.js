@@ -1,4 +1,5 @@
 import React from "react";
+import GifListContainer from "./GifListContainer";
 
 import NavBar from "./NavBar";
 
@@ -7,6 +8,7 @@ import NavBar from "./NavBar";
 function App() {
   return (
     <div>
+      <GifListContainer />
       <NavBar color="black" title="Giphy Search" />
     </div>
   );
